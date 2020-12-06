@@ -1951,7 +1951,7 @@ img.lightbox-plus, .cbp-custom-overlay img.icon-arrow {
 .portfolio-navigation-wrap .portfolio-navigation li.portfolio-prev a:before, .portfolio-navigation-wrap .portfolio-navigation li.portfolio-next a:before {
   position: absolute;
   content: '';
-  background-image: url(assets/images/svg/button-dark.svg);
+  background-image: url(assets/images/button-dark.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 20px;
@@ -2435,7 +2435,7 @@ body.single.single-post .site-main {
 .prev.page-numbers:before, .next.page-numbers:before {
   position: absolute;
   content: '';
-  background-image: url(assets/images/svg/button-dark.svg);
+  background-image: url(assets/images/button-dark.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 20px;
@@ -2683,7 +2683,7 @@ body.blog .navigation.pagination .prev.page-numbers i, body.blog .navigation.pag
 .post-navigation .nav-previous .nav-subtitle:before, .post-navigation .nav-next .nav-subtitle:after {
   position: absolute;
   content: '';
-  background-image: url(assets/images/svg/button-dark.svg);
+  background-image: url(assets/images/button-dark.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;

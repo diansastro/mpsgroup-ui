@@ -18,7 +18,7 @@
 
         <link rel='stylesheet' id='main-css'  href='style.css' type='text/css' media='all' />
     </head>
-    <body>
+    <body class="single single-portfolio portfolio-details-top">
         <div id="page" class="site">
             <header id="masthead" class="site-header standard sticky" role="banner">		
                 <div class="container">
@@ -41,8 +41,8 @@
                                     <li class="has-children"><a href="#">Suzuki</a>
                                         <ul class="sub-menu">
                                             <li><a href="product.html">Product</a></li>
-                                            <li><a href="">Showroom</a></li>
-                                            <li><a href="">Price List</a></li>
+                                            <li><a href="showroom.html">Showroom</a></li>
+                                            <li><a href="pricing.html">Price List</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children"><a href="#">Nissan</a>
@@ -118,83 +118,103 @@
                 <div id="content" class="site-content">                   
                     <div id="primary" class="content-area">
                         <main id="main" class="site-main" role="main">
-                            <article class="page">                                
-                                <div class="entry-content">
-                                    <div class="container m-b-75">
-                                        <div class="row"> 
-                                            <div class="col-sm-12">
-                                                <div id="portfolio-swiper-slider" class="swiper-container single-project" data-slides-per-view="1" data-centered-slides="false" data-loop="true" data-effect="slide" data-autoplay-delay="5000" data-disable-on-interaction="true" data-pagination-type="bullets" data-tablet-slide-per-view="1" data-mobile-slide-per-view="1">
-                                                    <div class="swiper-wrapper">
-                                                        <div class="swiper-slide">
-                                                            <div class="swiper-slide-content-wrap">
-                                                                <div class="swiper-slide-item">						
-                                                                    <div class="swiper-image-wrap">								
-                                                                        <img width="1200" height="800" alt="Catalogue" src="assets/images/portfolio/single-slider/catalogue-2-min.jpg">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-12 no-padding">
+                                        <div class="portfolio-hero-section-wrap">
+                                            <div class="portfolio-hero-section">
+                                                <div class="swiper-container single-image-slider hero-full-height">
+                                                    <div class="swiper-wrapper" >
+                                                        <div class="swiper-slide" style="background-image: url('assets/images/brochure-full-1-min.jpg');"></div>   
+                                                        <div class="swiper-slide" style="background-image: url('assets/images/brochure-full-1-min.jpg');"></div> 
+                                                        <div class="swiper-slide" style="background-image: url('assets/images/brochure-full-1-min.jpg');"></div>
+                                                    </div>
+                                                    <div class="swiper-pagination"></div>
+                                                    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></div>
+                                                    <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"><i class="fas fa-chevron-right"></i></div>
+                                                </div>
+                                            </div>          
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="container t-offset-20">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <article class="portfolio m-t-10">
+                                            <header class="entry-header">
+                                                <h2 class="entry-title">Modern Brochure</h2>
+                                                <div class="entry-meta"></div>
+                                            </header>
+                                            <div class="entry-content">
+                                                <div class="media-wrap">
+                                                    <div id="portfolio-container-media" class="portfolio-media cbp" data-layoutmode="grid" data-displaytype="default" data-gaphorizontal="30" data-gapvertical="30" data-large-desktop="3" data-tablet-landscape="3" data-tablet-portrait="3" data-mobile="1">
+                                                        <div class="cbp-item">
+                                                            <a class="cbp-lightbox cbp-caption" data-title="Inner View" href="assets/images/brochure-inner-1-min.jpg">
+                                                                <div class="cbp-caption-defaultWrap">
+                                                                    <img src="assets/images/brochure-inner-1-min.jpg" class="portfolio-media-image" alt="Brochure 1" >
+                                                                </div>
+                                                                <div class="cbp-caption-activeWrap">
+                                                                    <div class="cbp-l-caption-alignCenter">
+                                                                        <div class="cbp-l-caption-body">
+                                                                            <div class="cbp-l-caption-title">
+                                                                                <img src="assets/images/plus.svg" class="lightbox-plus" alt="Lightbox Plus">
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <!-- <div class="swiper-title-wrap">
-                                                                        <h1>Catalogue</h1>
-                                                                        <a href="portfolio-single-hero-gallery.html" class="portfolio-link">
-                                                                            View Project			
-                                                                        </a>
-                                                                    </div> -->						
                                                                 </div>
-                                                            </div>			
+                                                            </a>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="swiper-slide-content-wrap">
-                                                                <div class="swiper-slide-item">						
-                                                                    <div class="swiper-image-wrap">								
-                                                                        <img width="1200" height="800" alt="Paper" src="assets/images/portfolio/single-slider/paper-1-min.jpg">
+                                                        <div class="cbp-item">
+                                                            <a class="cbp-lightbox cbp-caption" data-title="Inner &amp; Outer View" href="assets/images/brochure-inner-2-min.jpg">
+                                                                <div class="cbp-caption-defaultWrap">
+                                                                    <img src="assets/images/brochure-inner-2-min.jpg" class="portfolio-media-image" alt="Brochure 2" >
+                                                                </div>
+                                                                <div class="cbp-caption-activeWrap">
+                                                                    <div class="cbp-l-caption-alignCenter">
+                                                                        <div class="cbp-l-caption-body">
+                                                                            <div class="cbp-l-caption-title">
+                                                                                <img src="assets/images/plus.svg" class="lightbox-plus" alt="Lightbox Plus">
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                    <!-- <div class="swiper-title-wrap">
-                                                                        <h1>Paper</h1>
-                                                                        <a href="portfolio-single-stack.html" class="portfolio-link">
-                                                                            View Project					
-                                                                        </a>
-                                                                    </div> -->
                                                                 </div>
-                                                            </div>			
+                                                            </a>
                                                         </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="swiper-slide-content-wrap">
-                                                                <div class="swiper-slide-item">						
-                                                                    <div class="swiper-image-wrap">								
-                                                                        <img width="1200" height="800" alt="Flyer" src="assets/images/portfolio/single-slider/flyer-2-min.jpg">
-                                                                    </div>				
+                                                        <div class="cbp-item">                   
+                                                            <a class="cbp-lightbox cbp-caption" data-title="Inner View Closeup" href="assets/images/brochure-inner-3-min.jpg">
+                                                                <div class="cbp-caption-defaultWrap">
+                                                                    <img src="assets/images/brochure-inner-3-min.jpg" class="portfolio-media-image" alt="Brochure 3" >
                                                                 </div>
-                                                            </div>			
+                                                                <div class="cbp-caption-activeWrap">
+                                                                    <div class="cbp-l-caption-alignCenter">
+                                                                        <div class="cbp-l-caption-body">
+                                                                            <div class="cbp-l-caption-title">
+                                                                                <img src="assets/images/plus.svg" class="lightbox-plus" alt="Lightbox Plus">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </a>          
                                                         </div>
                                                     </div>
-                                                    
-                                                    <div class="swiper-pagination"></div>
-                                                    
-                                                </div>
+                                                </div>                                           
                                             </div>
-                                        </div>
-                                    </div>    
-
-                                    <div class="container m-b-100"> 
-                                        <div class="row"> 
-                                            <div class="col-sm-12">
-                                                <div class="cta style-2">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>     
-                                    </div>         
-
-                                </div>
-                            </article>     
+                                        </article>
+                                    </div>                                 
+                                </div>                             
+                            </div>  
                         </main>
                     </div>                
-                    <a id="gotoTop" href="#" class="scroll-top-link" data-easing="easeOutQuad" data-speed="700" ><i class="fa fa-angle-up"></i></a>
+                    <a id="gotoTop" href="#" class="scroll-top-link" data-easing="easeOutQuad" data-speed="700" ><i class="fa fa-angle-up"></i>
+                    </a>
                 </div>              
                 <footer id="footer" class="site-footer standard" role="contentinfo">
                     <div class="container">
                         <div class="site-info">			
                             <p class="copyright">© 2020 Megahputra Group</p>
                         </div>    
-                        <nav class="footer-socials" role="navigation" aria-label="Footer Social Links Menu">                           
+                        <nav class="footer-socials" role="navigation" aria-label="Footer Social Links Menu">                      
                             <ul id="social-media-footer" class="social-links-menu">
                                 <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
